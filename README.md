@@ -40,15 +40,15 @@ Note that when you open the project, PyCharm will create a hidden directory call
 
 Usually, PyCharm is able to find your default Python installation path. However, if your laptop is set up incorrectly, you will need to explicitly specify the path. Follow these steps to check:
 
-1) `File` -> `Settings`
-2) Select `Project` -> `Project Interpreter` on the left of the settings menu
-3) Make sure `Python 2.7.*` is selected in the dropdown menu (the * can be any number)
+1. `File` -> `Settings`
+2. Select `Project` -> `Project Interpreter` on the left of the settings menu
+3. Make sure `Python 2.7.*` is selected in the dropdown menu (the * can be any number)
 
 If you see python in the dropdown menu, you can skip to the next section. Otherwise:
 
-1) Select `Show All` in the dropdown menu.
-2) Click on the green plus button.
-3) Add the directory to `python.exe`. Depending on your operating system, you might have to Google where you can find the executable on your computer. For Windows users, it's in the Python2.7 folder either in `C:/Program Files` or `C:/Program Files (x86)`.
+1. Select `Show All` in the dropdown menu.
+2. Click on the green plus button.
+3. Add the directory to `python.exe`. Depending on your operating system, you might have to Google where you can find the executable on your computer. For Windows users, it's in the Python2.7 folder either in `C:/Program Files` or `C:/Program Files (x86)`.
 
 ## Running the Autograder
 
@@ -58,11 +58,11 @@ Instead of using the terminal to run the autograder, we will create a `Run Confi
 
 We wish to run the autograder with no extra parameters (no `-q q1`). Here is how we can do that:
 
-1) Open `autograder.py` by double-clicking on it on the `Project Menu` toward the left
-2) Scroll down until you see:
+1. Open `autograder.py` by double-clicking on it on the `Project Menu` toward the left
+2. Scroll down until you see:
 
 ```python
 if __name__ == "__main__":
 ```
-3) Click the green run button to left. This will run the autograder, which is the equivalent of typing in `python autograder.py` into the terminal.
-4) Notice how this has created a `Run Configuration` on the top left. Any files you run will show up in this dropdown menu. To re-run any of these, you can select it in the menu and press on the green arrow to the right.
+3. Click the green run button to left. This will run the autograder, which is the equivalent of typing in `python autograder.py` into the terminal.
+4. Notice how this has created a `Run Configuration` on the top left. Any files you run will show up in this dropdown menu. To re-run any of these, you can select it in the menu and press on the green arrow to the right.
