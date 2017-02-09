@@ -64,5 +64,6 @@ We wish to run the autograder with no extra parameters (no `-q q1`). Here is how
 ```python
 if __name__ == "__main__":
 ```
-3. Click the green run button to left. This will run the autograder, which is the equivalent of typing in `python autograder.py` into the terminal.
-4. Notice how this has created a `Run Configuration` on the top left. Any files you run will show up in this dropdown menu. To re-run any of these, you can select it in the menu and press on the green arrow to the right.
+Click the green run button to left. This will run the autograder, which is the equivalent of typing in `python autograder.py` into the terminal.
+
+Notice how this has created a `Run Configuration` on the top left. Any files you run will show up in this dropdown menu. To re-run any of these, you can select it in the menu and press on the green arrow to the right.
