@@ -34,7 +34,7 @@ This is pretty self explanatory. Make sure the project folder is downloaded and 
 
 Click on the `Open` button in the welcome screen, select the project folder in the navigation view, and click `Ok`.
 
-Note that when you open the project, PyCharm will create a hidden directory called `.idea` in the project folder. You shouldn't worry about this, but don't delete it!
+Note that when you open the project, PyCharm will create a hidden directory called `.idea` in the project folder. You shouldn't worry about this, and don't delete it!
 
 ## Setting the Python Environment
 
@@ -67,3 +67,21 @@ if __name__ == "__main__":
 Click the green run button to left. This will run the autograder, which is the equivalent of typing in `python autograder.py` into the terminal.
 
 Notice how this has created a `Run Configuration` on the top left. Any files you run will show up in this dropdown menu. To re-run any of these, you can select it in the menu and press on the green arrow to the right.
+
+### Running the autograder with parameters
+
+We can edit the `Run Configuration` to pass in parameters to the autograder. For example, we can run `python pacman.py -q q1` with the following:
+
+1. Click on the dropdown menu in the top right, select `Edit Configurations`
+2. In the pop-up menu, select the `autograder` run configuration from before. Click on the `Copy` button on the top (should be to the right of a red minus).
+3. We have now made a copy of the run configuration that we can change. In the `Name` field, type in something descriptive, like "autograder q1".
+4. In the `script parameters` field, type in the parameters like "-q q1".
+5. Press `Ok`
+
+Now when you run "autograder q1", it will run the script with the specified parameters.
+
+### Running other files
+
+This same method can be extended to run other files. For example, to run `python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs`, just make a new run configuration for "pacman.py" with script parameters "-l mediumMaze -p SearchAgent -a fn=bfs".
+
+## Using the Debugger
