@@ -107,6 +107,8 @@ Well, you might be wondering what the debugger is. Basically, it is a tool that 
 
 To use the debugger, we need to set `Breakpoints`, which are lines of code where the program will pause execution _every time_ it hits that line. To set a breakpoint, single-click on the bar to the right of the line numbers. This creates a red circle, which is a breakpoint. Later, you can click on it again to remove it.
 
+![Breakpoints](video/Breakpoints.mp4 "Breakpoints")
+
 ### Running the debugger
 
 Go ahead and click on the debug button (to the right of the run button at the top). Make sure you selected a `Run Configuration` that will actually get to that line of code, such as the autograder. 
