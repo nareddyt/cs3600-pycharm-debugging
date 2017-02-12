@@ -44,6 +44,8 @@ Usually, PyCharm is able to find your default Python installation path. However,
 2. Select `Project` -> `Project Interpreter` on the left of the settings menu
 3. Make sure `Python 2.7.*` is selected in the dropdown menu (the * can be any number)
 
+![Python Interpretor Setup]("img/Project Interpretor.PNG?raw=true" "Python Interpretor Setup")
+
 If you see python in the dropdown menu, you can skip to the next section. Otherwise:
 
 1. Select `Show All` in the dropdown menu.
