@@ -117,21 +117,31 @@ As you can see in the gif, the program paused at that line. The line of code has
 
 _This is extremely useful for debugging, certainly better than printing out all your variables!_
 
+![Debugger](gif/debugger.gif "Debugger")
+
 ### Code navigation
 
 We can do much more than just pause at a specific line. Here are some more useful features of the debugger:
+
+![Debugger Buttons](img/DebuggerButtons.png "Debugger Buttons")
 
 #### Resume program execution
 
 After pausing the program at a breakpoint, you can have it continue like normal until it reaches another breakpoint. This breakpoint could be the same one being called in a loop, or a completely different one.
 
+![Debugger Resume](gif/debugger_resume.gif "Debugger Resume")
+
 #### Step over
 
 Runs the next line of code in the program and then pauses again. It will just go line by line. Note that if you have any function calls, it won't go into the function call stack.
 
+![Debugger Step Over](gif/debugger_step_over.gif "Debugger Step Over")
+
 #### Step into
 
 Runs the next line of code in a function call. Basically, it will step into any function that you are currently paused at, unlike **step over**.
+
+![Debugger Step Into](gif/debugger_step_into.gif "Debugger Step Into")
 
 #### Stop
 
