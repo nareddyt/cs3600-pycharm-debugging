@@ -68,7 +68,11 @@ if __name__ == "__main__":
 ```
 Click the green run button to left, then press `Run`. This will run the autograder, which is the equivalent of typing in `python autograder.py` into the terminal.
 
+![Running the Autograder](img/RunAutograder.png "Running the Autograder")
+
 Notice how this has created a `Run Configuration` on the top left. Any files you run will show up in this dropdown menu. To re-run any of these, you can select it in the menu and press on the green arrow to the right.
+
+![Run Configurations](img/RunConfigurations.png "Run Configurations")
 
 ### Running the autograder with parameters
 
@@ -79,6 +83,8 @@ We can edit the `Run Configuration` to pass in parameters to the autograder. For
 3. We have now made a copy of the run configuration that we can change. In the `Name` field, type in something descriptive, like "autograder q1".
 4. In the `script parameters` field, type in the parameters like "-q q1".
 5. Press `Ok`
+
+![Edit Run Configurations](img/EditRunConfiguration.png "Edit Run Configurations")
 
 Now when you run "autograder q1", it will run the script with the specified parameters.
 
