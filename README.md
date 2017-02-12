@@ -88,7 +88,7 @@ This same method can be extended to run other files. For example, to run `python
 
 The main reason we recommend PyCharm is for the debugger! Before continuing, double check that you understand the **Running the Autograder** section above. You will need the autograder `Run Configuration` to run the debugger.
 
-Well, you might be wondering what the debugger is. Basically, you can set specific `Breakpoints` where your program will pause execution. Everytime the program pauses, you can:
+Well, you might be wondering what the debugger is. Basically, it is a tool that lets you set specific `Breakpoints` where your program will **pause execution**. Everytime the program pauses, you can:
 
 * Check the values assigned to all your variables
 * Step into function calls and check what they return
@@ -97,13 +97,15 @@ Well, you might be wondering what the debugger is. Basically, you can set specif
 
 ### Setting breakpoints
 
-To use the debugger, we need to set `Breakpoints`, which are lines of code where the program will pause execution _every time_ it hits that line. To set a breakpoint, single-click on the bar to the right of the line numbers. This creates a red circle, which is a breakpoint. You can click on it again to remove it later.
+To use the debugger, we need to set `Breakpoints`, which are lines of code where the program will pause execution _every time_ it hits that line. To set a breakpoint, single-click on the bar to the right of the line numbers. This creates a red circle, which is a breakpoint. Later, you can click on it again to remove it.
 
 ### Running the debugger
 
 Go ahead and click on the debug button (to the right of the run button at the top). Make sure you selected a `Run Configuration` that will actually get to that line of code, such as the autograder. 
 
-As you can see in the gif, the program paused at that line. The line of code has not been executed yet, and you can view all the variables currently assigned before executing the line. Note that objects are nested, so you can expand  each object to see what attributes it has. This is extremely useful for debugging!
+As you can see in the gif, the program paused at that line. The line of code has not been executed yet, and you can view all the variables currently assigned before executing the line. Note that objects are nested, so you can expand  each object to see what attributes it has. 
+
+_This is extremely useful for debugging, certainly better than printing out all your variables!_
 
 ### Code navigation
 
@@ -111,7 +113,7 @@ We can do much more than just pause at a specific line. Here are some more usefu
 
 #### Resume program execution
 
-After pausing the program at a breakpoint, you can have it continue like normal until it reaches another breakpoint. This breakpoint could be the same one being called in a loop, or a completely different one!
+After pausing the program at a breakpoint, you can have it continue like normal until it reaches another breakpoint. This breakpoint could be the same one being called in a loop, or a completely different one.
 
 #### Step over
 
@@ -124,6 +126,8 @@ Runs the next line of code in a function call. Basically, it will step into any 
 #### Stop
 
 Of course, make sure to hit the stop button after you're done with the debugger.
+
+We'll let you play around with the debugger on your code. Try it out!
 
 ## Other Protips (Optional)
 
