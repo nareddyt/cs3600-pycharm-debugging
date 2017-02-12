@@ -9,7 +9,7 @@ We will go over the debugger towards the end of the tutorial. If you already hav
 
 This tutorial assumes students have used **IntelliJ IDEA** in CS 1332. Students who have not used IntelliJ should be able to follow along, but it might take time to get used to the GUI and keyboard shortcuts.
 
-Note: Some of the pictures may look a _little_ different, as we use an Early Access Preview version of PyCharm.
+Note: Some of the pictures may look a _little_ different, we use an Early Access Preview version of PyCharm.
 
 ## Downloading PyCharm
 
@@ -135,10 +135,14 @@ We'll let you play around with the debugger on your code. Try it out!
 
 Don't run your code in debugger mode if you aren't actually debugging. It's a lot slower.
 
+### Line Numbers
+
+To show line numbers, right-click on the bar where you set debug breakpoints, then select the `show line numbers` option.
+
 ### Version Control Integration
 
-PyCharm has git and **GitHub** integration built right into it. You can find out more about it [here](https://www.jetbrains.com/help/pycharm/2016.3/registering-github-account-in-pycharm.html). No more complaining that your laptop crashed and you lost all your work please...
+PyCharm has **git** and **GitHub** integration built right into it. You can find out more about it [here](https://www.jetbrains.com/help/pycharm/2016.3/registering-github-account-in-pycharm.html). No more complaining that your laptop crashed and you lost all your work please...
 
 Of course, we don't want you guys sharing code over GitHub, so please make them private repos (it is cheating to make them public, our cheat detector will catch it). You can set up the repoistory on [Gatech's GitHub](http://www.github.gatech.edu), as that comes with unlimited free private repos. 
 
-Super secret tip: You can get unlimited free private repos on the [regular GitHub site](http://www.github.com) if you are a student (normally it costs $7 / month for 5 private repos). You need to sign up for a [GitHub Student Account](https://education.github.com/pack). It comes with a bunch of other free products, such as AWS credit, custom domain names, continuous integration build hours, cloud-based solutions, etc.
+Super secret tip: You can get unlimited free private repos on the [regular GitHub site](http://www.github.com) if you are a student (normally it costs $7 / month for 5 private repos). You need to sign up for a [GitHub Student Account](https://education.github.com/pack). It comes with a bunch of other free products not needed, such as AWS credit, custom domain names, continuous integration build hours, cloud-based solutions, etc.
