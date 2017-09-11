@@ -1,19 +1,17 @@
 # Debugging with PyCharm
 
-We (Georgia Tech's CS 3600 TAs) made this tutorial to introduce **PyCharm** to students taking the course. Two main reasons for using PyCharm over a text editor:
+Georgia Tech's CS 3600 TAs created this tutorial to introduce **PyCharm** to students taking CS 3600. Two main reasons for using PyCharm over a text editor:
 
 * Dynamic error checking and warning messages
 * A built-in debugger
 
 We will go over the debugger towards the end of the tutorial. If you already have PyCharm set up and working, you can skip right to that part.
 
-This tutorial assumes students have used **IntelliJ IDEA** in CS 1332. Students who have not used IntelliJ should be able to follow along, but it might take time to get used to the GUI and keyboard shortcuts.
-
 Note: Some of the pictures may look a _little_ different, we use an Early Access Preview version of PyCharm.
 
 ## Downloading PyCharm
 
-**JetBrains** is a company that creates development tools for programmers. A full list of IDEs and tools can be found [here](https://www.jetbrains.com/products.html?fromMenu). For our course, we will be using their Python IDE called **PyCharm**.
+**JetBrains** is a company that creates development tools for programmers. A full list of IDEs and tools can be found [here](https://www.jetbrains.com/products.html?fromMenu). For our course, we will be using their Python IDE called **PyCharm**. If you used **IntelliJ** for CS 1332, this should feel very similar.
 
 You can download PyCharm [here](https://www.jetbrains.com/pycharm/download/#section=windows). There are two different versions:
 
@@ -28,11 +26,11 @@ JetBrains offers all their professional tools for free to students! You can crea
 
 After downloading and installing PyCharm, run the application. You will have to choose a few options for the initial setup, but this should only take a few seconds. 
 
-We recommend that you stick to all the default settings. However, feel free to change the theme: `Dracula` looks similar to **Atom** and **Sublime Text**.
+We recommend that you stick to all the default settings. Feel free to change the theme: `Dracula` looks similar to **Atom** and **Sublime Text**.
 
 ## Opening Projects in PyCharm
 
-This is pretty self explanatory. Make sure the project folder is downloaded and you know where it is.
+This is pretty self explanatory. Make sure the CS 3600 project is downloaded and you know where it is.
 
 Click on the `Open` button in the welcome screen, select the project folder in the navigation view, and click `Ok`.
 
@@ -51,6 +49,8 @@ If you see python in the dropdown menu, you can skip to the next section. Otherw
 1. Select `Show All` in the dropdown menu.
 2. Click on the green plus button.
 3. Add the directory to `python.exe`. Depending on your operating system, you might have to Google where you can find the executable on your computer. For Windows users, it's in the Python2.7 folder either in `C:/Program Files` or `C:/Program Files (x86)`.
+
+If you have trouble with these steps, please check stackoverflow or ask on piazza!
 
 ## Running the Autograder
 
@@ -96,7 +96,7 @@ This same method can be extended to run other files. For example, to run `python
 
 The main reason we recommend PyCharm is for the debugger! Before continuing, double check that you understand the **Running the Autograder** section above. You will need the autograder `Run Configuration` to run the debugger.
 
-Well, you might be wondering what the debugger is. Basically, it is a tool that lets you set specific `Breakpoints` where your program will **pause execution**. Everytime the program pauses, you can:
+You might be wondering what the debugger is. Basically, it is a tool that lets you set specific `Breakpoints` where your program will **pause execution**. Everytime the program pauses, you can:
 
 * Check the values assigned to all your variables
 * Step into function calls and check what they return
@@ -163,6 +163,6 @@ To show line numbers, right-click on the bar where you set debug breakpoints, th
 
 PyCharm has **git** and **GitHub** integration built right into it. You can find out more about it [here](https://www.jetbrains.com/help/pycharm/2016.3/registering-github-account-in-pycharm.html). No more complaining that your laptop crashed and you lost all your work please...
 
-Of course, we don't want you guys sharing code over GitHub, so please make them private repos (it is cheating to make them public, our cheat detector will catch it). You can set up the repoistory on [Gatech's GitHub](http://www.github.gatech.edu), as that comes with unlimited free private repos. 
+Of course, we don't want you guys sharing code over GitHub, so please make them private repos. **Note that posting your code publicly is an honor code violation.** You can set up the repoistory on [Gatech's GitHub](http://www.github.gatech.edu), as that comes with unlimited free private repos. 
 
-Super secret tip: You can get unlimited free private repos on the [regular GitHub site](http://www.github.com) if you are a student (normally it costs $7 / month for 5 private repos). You need to sign up for a [GitHub Student Account](https://education.github.com/pack). It comes with a bunch of other free products not needed, such as AWS credit, custom domain names, continuous integration build hours, cloud-based solutions, etc.
+You can get unlimited free private repos on the [regular GitHub site](http://www.github.com) if you are a student (normally it costs $7 / month for 5 private repos). You need to sign up for a [GitHub Student Account](https://education.github.com/pack). It comes with a bunch of other free products not needed, such as AWS credit, custom domain names, continuous integration build hours, cloud-based solutions, etc.
