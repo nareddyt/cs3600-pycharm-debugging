@@ -7,7 +7,7 @@ Georgia Tech's CS 3600 TAs created this tutorial to introduce **PyCharm** to stu
 
 We will go over the debugger towards the end of the tutorial. If you already have PyCharm set up and working, you can skip right to that part.
 
-Note: Some of the pictures may look a _little_ different, we use an Early Access Preview version of PyCharm.
+Note: Some of the pictures may look a _little_ different, we used an Early Access Preview version of PyCharm.
 
 ## Downloading PyCharm
 
